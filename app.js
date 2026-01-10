@@ -6,7 +6,6 @@ let clear = document.querySelector(".clear");
 let pulus = document.querySelector(".pulus");
 let add = document.querySelector(".add");
 
-// siyahi gorunusu
 function listView() {
     if (list.children.length > 0) {
         list.style.display = "block";
@@ -17,7 +16,7 @@ function listView() {
     }
 }
 listView();
-// add a klikledikde task elave olunmasi
+
 let i = 1;
 add.addEventListener("click", () => {
     if (input.value.trim() != "") {
@@ -30,19 +29,16 @@ add.addEventListener("click", () => {
         item.draggable = true;
     }
 });
-// inputun x nin islemesi  
+
 clear.addEventListener("click", () => input.value = "");
 
-// plusa klikledikde inputun acilmasi
 pulus.addEventListener("click", () => inputAll.style.display = "block");
 
-// siyahida x nin islemesi silme 
 list.addEventListener("click", (e) => {
     if (e.target.classList.contains("delete-btn")) { e.target.parentElement.remove() }
     listView()
 });
 
-// tasklarin sortlanmasi
 sort.addEventListener("click", () => {
     let arr = [...list.children];
     let sortIcon = sort.classList.contains("bi-sort-down-alt");
@@ -56,7 +52,6 @@ sort.addEventListener("click", () => {
     arr.forEach((a) => list.appendChild(a));
 
 });
-// drag and drop
 list.addEventListener("dragstart", (e) => e.target.classList.contains("item") ? b = e.target : null);
 
 list.addEventListener("dragover", (e) => {
