@@ -56,7 +56,7 @@ sort.addEventListener("click", () => {
     arr.forEach((a) => list.appendChild(a));
 
 });
-// drag and drop funksiyasi chatgbtden istifade etmisem amma bele basa dusudum
+// drag and drop
 list.addEventListener("dragstart", (e) => e.target.classList.contains("item") ? b = e.target : null);
 
 list.addEventListener("dragover", (e) => {
