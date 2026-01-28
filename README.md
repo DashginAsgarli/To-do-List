@@ -7,4 +7,9 @@ Gündəlik işlərinizi asanlıqla idarə etmək üçün hazırlanıb.
 - ➕ Yeni task əlavə etmə  
 - ❌ Task silmə  
 - 🖱️ **Drag-and-drop** ilə taskların yerini dəyişmə  
-- 🔀 **Sort funksiyası** ilə taskları avtomatik sıralama 
+- 🔀 **Sort funksiyası** ilə taskları avtomatik sıralama
+
+## 🛠️ İstifadə olunan texnologiyalar
+- HTML  
+- CSS  
+- JavaScript  
