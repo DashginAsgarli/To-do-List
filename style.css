@@ -79,7 +79,6 @@ h1 {
 
 .input-container:focus-within {
     border-color: white;
-    box-shadow: 0 0 20px #ffffff3f;
 }
 
 .input {
@@ -195,12 +194,10 @@ h1 {
     color:rgba(10, 14, 23, 0.9);
     cursor: pointer;
     transition: all 0.3s;
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
 }
 
 .pulus:hover {
     transform: scale(1.1) rotate(90deg);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
 .add {
@@ -215,12 +212,10 @@ h1 {
     cursor: pointer;
     transition: all 0.3s;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
 }
 
 .add:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.4);
 }
 
 @keyframes fadeIn {
