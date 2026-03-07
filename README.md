@@ -4,7 +4,7 @@
 
 **A simple, interactive, and user-friendly task manager to keep your day on track.**
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-dashginasgarli.github.io-22c55e?style=for-the-badge)](https://dashginasgarli.github.io/To-do-List/)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-dashginasgarli.github.io-22c55e?style=for-the-badge)](https://dashginasgarli.github.io/todo-list//)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/dashginasgarli/To-do-List)
 [![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
