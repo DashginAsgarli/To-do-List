@@ -20,10 +20,12 @@ To-Do List App is a lightweight browser-based task manager built with vanilla Ja
 
 ## Features
 
-✅ &nbsp;Add new tasks instantly  
-🗑️ &nbsp;Delete tasks with one click  
-🔀 &nbsp;Drag and drop to reorder tasks  
-🔃 &nbsp;Sort functionality to auto-organize your list  
+<ul>
+  <li>Add new tasks instantly  </li>
+  <li>Delete tasks with one click  </li>
+  <li>Drag and drop to reorder tasks  </li>
+  <li>Sort functionality to auto-organize your list  </li>
+</ul>
 
 ---
 
@@ -47,8 +49,6 @@ cd To-do-List
 # Run in your browser
 open index.html
 ```
-
-> ⚡ No installation or dependencies required — runs directly in your browser.
 
 ---
 
